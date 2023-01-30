@@ -1,0 +1,9 @@
+{
+  "destinations": [
+    {
+      "name": "Northwind",
+      "url": "https://services.odata.org",
+      "forwardAuthToken": false
+    }
+  ]
+}

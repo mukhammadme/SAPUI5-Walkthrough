@@ -1,0 +1,20 @@
+{
+  "welcomeFile": "index.html",
+  "authenticationMethod": "none",
+  "routes": [
+    {
+      "source": "^/invoiceRemote(.*)$",
+      "target": "$1",
+      "destination": "Northwind",
+      "authenticationType": "none",
+      "csrfProtection": false
+    },
+    {
+      "source": "^(.*)$",
+      "target": "$1",
+      "localDir": "./webapp",
+      "authenticationType": "none",
+      "cacheControl": "no-cache, no-store, must-revalidate"
+    }
+  ]
+}
