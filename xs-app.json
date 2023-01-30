@@ -10,6 +10,13 @@
       "csrfProtection": false
     },
     {
+      "source": "^/mock(.*)$",
+      "target": "$1",
+      "localDir": "./webapp/test",
+      "authenticationType": "none",
+      "cacheControl": "no-cache, no-store, must-revalidate"
+    },
+    {
       "source": "^(.*)$",
       "target": "$1",
       "localDir": "./webapp",
