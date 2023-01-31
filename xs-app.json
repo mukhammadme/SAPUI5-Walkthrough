@@ -17,9 +17,16 @@
       "cacheControl": "no-cache, no-store, must-revalidate"
     },
     {
-      "source": "^/unit(.*)$",
+      "source": "^/test/unit(.*)$",
       "target": "$1",
       "localDir": "./webapp/test/unit",
+      "authenticationType": "none",
+      "cacheControl": "no-cache, no-store, must-revalidate"
+    },
+    {
+      "source": "^/test/integration(.*)$",
+      "target": "$1",
+      "localDir": "./webapp/test/integration",
       "authenticationType": "none",
       "cacheControl": "no-cache, no-store, must-revalidate"
     },
